@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="frontend/assets/qubrid_logo.png" alt="Qubrid AI Logo" width="80"/>
+<img src="frontend/assets/qubrid_banner.png" alt="SnapCode AI Banner" width="100%">
 
 # ThinkTrace AI 🧠
 
@@ -96,6 +96,18 @@ Powered by **Kimi K2 Thinking** (Moonshot AI) via [Qubrid AI](https://qubrid.com
 | 📊 Data & Statistics | Probability, distributions, hypothesis testing |
 | 💡 General Reasoning | Thought experiments, philosophy, inference |
 
+
+---
+
+## 💡 What Makes This Different
+
+Most AI apps treat reasoning as an internal detail — you get the answer and nothing else. ThinkTrace AI treats **the reasoning trace as the product**. Every question returns two things:
+
+1. The full chain-of-thought — every assumption, dead-end, and correction the model made.
+2. The final verified answer — formatted, math-rendered, and ready to download.
+
+This is especially useful for learning: you don't just see *that* `0.999... = 1`, you see *why*, proved from first principles, step by step.
+
 ---
 
 ## 📁 Project Structure
@@ -170,23 +182,6 @@ nano .env  # Add your QUBRID_API_KEY
 # 6. Run the app
 streamlit run app.py
 ```
-
-### Environment Variables
-
-```env
-QUBRID_API_KEY=your_api_key_here
-```
-
----
-
-## 💡 What Makes This Different
-
-Most AI apps treat reasoning as an internal detail — you get the answer and nothing else. ThinkTrace AI treats **the reasoning trace as the product**. Every question returns two things:
-
-1. The full chain-of-thought — every assumption, dead-end, and correction the model made.
-2. The final verified answer — formatted, math-rendered, and ready to download.
-
-This is especially useful for learning: you don't just see *that* `0.999... = 1`, you see *why*, proved from first principles, step by step.
 
 ---
 
